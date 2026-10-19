@@ -4,6 +4,7 @@
   "name": "Hang On",
   "version": "0.1.0",
   "author": "Aishwarya Agarwal",
+  "homepage_url": "https://github.com/aishagarwal/hang-on",
   "description": "Asks for confirmation before closing a tab while a video call is in progress, on sites you choose (e.g. Google Meet).",
   "permissions": ["storage", "scripting"],
   "optional_host_permissions": ["*://*/*"],
