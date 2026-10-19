@@ -58,6 +58,7 @@
       if (!isCallActive()) return;
 
       e.preventDefault();
+      // Deprecated, but older Chrome (the manifest allows 102+) only shows the dialog when this is set.
       e.returnValue = "";
       // Stops the page's own beforeunload handlers (e.g. one that hangs up the call).
       e.stopImmediatePropagation();
