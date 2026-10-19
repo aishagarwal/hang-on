@@ -1,0 +1,6 @@
+# Default owner for everything
+*                         @aishagarwal
+
+# Security-sensitive: permissions and the page-world script
+/extension/manifest.json  @aishagarwal
+/extension/guard.js       @aishagarwal
